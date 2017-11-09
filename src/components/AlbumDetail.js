@@ -29,7 +29,7 @@ export default class AlbumDetail extends Component {
                 </CardSection>
                 <CardSection>
                     <CustomButton onPress={() => Linking.openURL(url)}>
-                        Buy!
+                        Buy Now!
                     </CustomButton>
                 </CardSection>
             </Card>

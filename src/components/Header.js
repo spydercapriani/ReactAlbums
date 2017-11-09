@@ -13,7 +13,7 @@ export default class Header extends Component {
 
 const styles = StyleSheet.create({
   header: {
-    backgroundColor: 'red',
+    backgroundColor: 'blue',
     alignItems: 'center',
     justifyContent: 'center',
     height: 60,
@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
   },
   headerText: {
     fontSize: 20,
+    fontWeight: 'bold',
     color: 'white'
   }
 });

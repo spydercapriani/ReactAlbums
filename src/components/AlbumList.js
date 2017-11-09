@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
-    StyleSheet, 
-    View
+    StyleSheet,
+    ScrollView
  } from 'react-native';
  import AlbumDetail from './AlbumDetail';
 
@@ -29,9 +29,9 @@ import {
 
     render() {
         return (
-            <View>
+            <ScrollView>
                 {this.renderAlbums()}
-            </View>
+            </ScrollView>
           )
     }
 }

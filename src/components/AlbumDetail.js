@@ -60,6 +60,7 @@ const styles = StyleSheet.create({
     albumImage: {
         height: 300,
         flex: 1,
-        width: null
+        width: null,
+        resizeMode: 'stretch'
     }
   });

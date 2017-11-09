@@ -28,7 +28,9 @@ export default class AlbumDetail extends Component {
                     <Image style={albumImage} source={{uri: image}}/>
                 </CardSection>
                 <CardSection>
-                    <CustomButton onPress={() => Linking.openURL(url)} title={'Buy!'}/>
+                    <CustomButton onPress={() => Linking.openURL(url)}>
+                        Buy!
+                    </CustomButton>
                 </CardSection>
             </Card>
         )
